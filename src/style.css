@@ -165,4 +165,22 @@
     width: 100vw;
     overflow: hidden;
   }
+
+  .search-container {
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1.25em;
+  }
+  .wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    overflow: hidden;
+    width: 90%;
+  }
 }
